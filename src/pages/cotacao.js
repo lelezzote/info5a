@@ -1,5 +1,6 @@
 import useSWR from 'swr';
 import { fetcher } from '../lib/fetcher';
+//import styles from "./styles/globals.css";
 
 export default function Home() {
   const { data, error, isLoading } = useSWR(
